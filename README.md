@@ -10,3 +10,5 @@ Este repositório contém uma página web criada em **HTML** para homenagear o i
 A página é desenvolvida com um layout **minimalista e artístico**, refletindo a vibe única do artista, com efeitos visuais e fontes personalizadas para proporcionar uma experiência imersiva. 🌟
 
 Sinta-se à vontade para explorar e se inspirar no trabalho de um dos artistas mais influentes da música contemporânea! ✨
+
+👉 **Confira a página ao vivo [aqui](https://leticialima04.github.io/Pagina-WEB/)**!
