@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Frank Ocean</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;}
+
+            body {
+                background-color: #000000; }
+            
+            .cabecario {
+                height: 102%;
+                width: 650px;
+                position: fixed;}
+            
+            .cabe_frank{
+                height: 900px;
+                width: 760px;
+                position: fixed;
+                top: 15%;
+                left: -30px;
+                z-index:10;}
+
+            h1 {
+                color: white;
+                border: rgb(100, 133, 108);
+                font-size: 200px;
+                font-family: 'Bebas Neue', serif, bold;
+                line-height: 0.8;
+                text-shadow: 10px 2px 15px rgb(24, 134, 41);
+                position: fixed;
+                top: 15%;
+                left: 130px;
+                z-index:5;
+                text-shadow: 0 0 200px rgb(73, 167, 73);}
+            
+            .bio {
+                font-family:Georgia, serif ;
+                position: absolute;
+                text-shadow: 0 0 30px rgba(218, 203, 136, 50);
+                top: 110px;
+                right: 190px;
+                margin-right: 50px;
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 19px;
+                color: #d9ffd1;
+                line-height: 1.7;
+                max-width: 800px;
+                font-weight: 100;
+                z-index: 5;}
+
+            .mol_bio{
+                position: absolute;
+                height: 400px;
+                width: 1000px;
+                top: 0px;
+                left: 795px;
+                z-index: 5;}
+
+            .per {
+                font-family: 'Bebas Neue', serif ;
+                position: absolute;
+                top: -9px;
+                right: 852px;
+                text-align: center;
+                text-shadow: 0 0 30px rgba(73, 255, 38, 50);
+                font-size: 75px;
+                color: #ffffff;
+                line-height: 1.7;
+                z-index: 10;}
+
+            .box1{
+                position:absolute;
+                top: 38px;
+                right: 850px;
+                width: 180px;
+                height: 1px;
+                padding: 10px;
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.45);                
+                border-radius: 4000px;
+                margin: 15px;
+                background-color: #000000;
+                z-index: 8;}
+
+            .box2{
+                position:absolute;
+                top: 388px;
+                right: 650px;
+                width: 400px;
+                height: 300px;
+                padding: 10px;
+                box-shadow: 0 0 30px rgba(141, 248, 164, 0.719);                
+                border-radius: 40px;
+                margin: 15px;
+                background-color: #000000;
+                z-index: 7;}
+
+            .lis1{
+                position: absolute;
+                color: #d9ffd1;
+                font-family:Georgia, serif;
+                top: 430px;
+                right: 710px;
+                width: 300px;
+                z-index: 8;
+                font-size: 15px;
+                text-shadow: 0 0 30px rgba(218, 203, 136, 50);}
+
+            .lis2{
+                position: absolute;
+                color: #d9ffd1;
+                font-family:Georgia, serif;
+                top: 530px;
+                right: 710px;
+                width: 300px;
+                z-index: 8;
+                font-size: 15px;
+                text-shadow: 0 0 30px rgba(218, 203, 136, 50);}
+            
+            .lis3{
+                position: absolute;
+                color: #d9ffd1;
+                font-family:Georgia, serif;
+                top: 610px;
+                right: 710px;
+                width: 300px;
+                z-index: 8;
+                font-size: 15px;
+                text-shadow: 0 0 30px rgba(218, 203, 136, 50);}
+
+            .box3{
+                position:absolute;
+                top: 388px;
+                right: 120px;
+                width: 470px;
+                height: 300px;
+                padding: 10px;
+                box-shadow: 0 0 30px rgba(141, 248, 164, 0.719);                
+                border-radius: 40px;
+                margin: 15px;
+                background-color: #000000;}
+
+            .insta{
+                position: absolute;
+                top: 28px;
+                right: 360px;
+                width: 80px;
+                display: block;
+                margin: auto;
+                height: 80px;
+                width: auto;
+                border-radius: 30px;
+                box-shadow: 0px 0px 80px rgb(141, 248, 164, 0.719);
+                z-index: 10;}
+
+            .P_insta{
+                position: absolute;
+                font-family: 'Bebas Neue', serif;
+                color: #ffffff;
+                top: 28px;
+                right: 110px;
+                z-index: 18;
+                font-size: 65px;
+                text-shadow: 0px 0px 40px rgb(141, 248, 164, 0.719);}
+
+            .P_blond{
+                position: absolute;
+                font-family: 'Bebas Neue', serif;
+                color: #ffffff;
+                top: 118px;
+                right: 100px;
+                z-index: 18;
+                font-size: 65px;
+                text-shadow: 0px 0px 40px rgb(141, 248, 164, 0.719);}
+
+            .P_x{
+                position: absolute;
+                font-family: 'Bebas Neue', serif;
+                color: #ffffff;
+                top: 199px;
+                right: 162px;
+                z-index: 18;
+                font-size: 65px;
+                text-shadow: 0px 0px 40px rgb(141, 248, 164, 0.719);}
+            
+            .blond{
+                position: absolute;
+                top: 130px;
+                right: 360px;
+                width: 80px;
+                display: block;
+                margin: auto;
+                height: 50px;
+                box-shadow: 0px 0px 90px rgb(141, 248, 164, 0.719);
+                z-index: 10;}
+
+            .x{
+                position: absolute;
+                top: 200px;
+                right: 360px;
+                width: 70px;
+                display: block;
+                margin: auto;
+                height: 70px;
+                border-radius: 30px;
+                box-shadow: 0px 0px 90px rgb(141, 248, 164, 0.719);
+                z-index: 11;}
+
+            .p{
+                position: absolute;
+                font-family: 'Bebas Neue', serif;
+                color: #ffffff;
+                top: 730px;
+                right: 222px;
+                z-index: 18;
+                font-size: 200px;
+                text-shadow: 0px 0px 40px rgb(141, 248, 164, 0.719);}
+
+            .nost{
+                position: absolute;
+                top: 1050px;
+                right: 720px;
+                width: 380px;
+                border-radius: 30px;
+                box-shadow: 0px 0px 200px rgb(141, 248, 164, 0.719);}
+
+            .info_nost{
+                font-family:Georgia, serif ;
+                position: absolute;
+                text-shadow: 0 0 40px rgba(218, 203, 136, 50);
+                top: 1050px;
+                right: 80px;
+                margin-right: 50px;
+                margin-bottom: 30px;
+                font-size: 20px;
+                color: #d9ffd1;
+                line-height: 1.7;
+                max-width: 500px;
+                font-weight: 100;
+                z-index: 5;}
+
+            .orange{
+                position: absolute;
+                top: 1500px;
+                right: 720px;
+                width: 380px;
+                border-radius: 30px;
+                box-shadow: 0px 0px 200px rgb(141, 248, 164, 0.719);}
+
+            .info_orange{
+                font-family:Georgia, serif ;
+                position: absolute;
+                text-shadow: 0 0 40px rgba(218, 203, 136, 50);
+                top: 1500px;
+                right: 80px;
+                margin-right: 50px;
+                margin-bottom: 30px;
+                font-size: 18px;
+                color: #d9ffd1;
+                line-height: 1.7;
+                max-width: 500px;
+                font-weight: 100;
+                z-index: 5;}
+
+            .end{
+                position: absolute;
+                top: 1957px;
+                right: 720px;
+                width: 380px;
+                border-radius: 30px;
+                box-shadow: 0px 0px 200px rgb(141, 248, 164, 0.719);}
+
+            .info_end{
+                font-family:Georgia, serif ;
+                position: absolute;
+                text-shadow: 0 0 40px rgba(218, 203, 136, 50);
+                top: 1957px;
+                right: 80px;
+                margin-right: 50px;
+                margin-bottom: 30px;
+                font-size: 19px;
+                color: #d9ffd1;
+                line-height: 1.7;
+                max-width: 500px;
+                font-weight: 100;
+                z-index: 5;}
+
+            .blo{
+                position: absolute;
+                top: 2415px;
+                right: 720px;
+                width: 380px;
+                border-radius: 30px;
+                box-shadow: 0px 0px 200px rgb(141, 248, 164, 0.719);}
+
+            .info_blo{
+                font-family:Georgia, serif ;
+                position: absolute;
+                text-shadow: 0 0 40px rgba(218, 203, 136, 50);
+                top: 2415px;
+                right: 80px;
+                margin-right: 50px;
+                margin-bottom: 30px;
+                font-size: 18px;
+                color: #d9ffd1;
+                line-height: 1.7;
+                max-width: 500px;
+                font-weight: 100;
+                z-index: 5;}
+
+            footer{
+                color: #ffffffde;
+                font-family: 'Bebas Neue', serif; 
+                font-size: 5; 
+                position: absolute;
+                top: 2800px;
+                right: 10px;}
+        </style>
+    
+
+</head>
+<body>
+    <header>
+        <img src="img/cabecario.png" class="cabecario" alt="cabecario">
+        <img src="img/frank ocean.png" class="cabe_frank" alt="Frank ocean">
+        <h1> Frank<br>Ocean</h1>
+    </header>
+    <section>
+        <img src="img/moldura bio.png" class="mol_bio" alt="Moldura da Biografia">
+        <p class="per">Quem é?</p>
+        <div class="box1"></div>
+        <p class="bio"><b>Frank Ocean</b> é um <b>cantor, compositor e produtor musical americano</b>, conhecido por sua abordagem inovadora e experimental da música <i>R&B</i>
+            além de sua habilidade de combinar elementos de <i>soul, eletrônica e pop.</i> Nascido <b>Christopher Edwin Breaux </b>em <i>28 de outubro de 1987</i>, em <i>Long Beach, Califórnia,</i>
+            ele começou sua carreira na música como compositor, escrevendo para outros artistas antes de lançar sua própria música.</p>
+    </section>
+    <section>
+        <div class="box2"></div>
+        <ol>    
+            <li class="lis1"><b>Pioneirismo LGBTQ+:</b> Foi um dos primeiros grandes artistas a se declarar abertamente <i>bissexual</i>, marcando um momento histórico na representação <i>LGBTQ+</i> na música.</li>
+            <li class="lis2"><b>Colaborador de grandes nomes:</b> Antes de sua carreira solo, escreveu músicas para artistas como <i>Beyoncé (I Miss You), John Legend e Justin Bieber.</i></li>
+            <li class="lis3"><b>Reservado, mas influente:</b> Apesar de evitar os holofotes e entrevistas, ele mantém uma base de fãs leal e é amplamente respeitado por sua <i>autenticidade artística.</i></li>
+        </ol>
+    </section>
+        <div class="box3">
+        <aside>
+            <a href="https://www.instagram.com/blonded" target="_blank"><img src="img/insta.png" class="insta" alt="Instagram"></a>
+            <a href="https://encurtador.com.br/Tlu6A" target="_blank"><img src="img/blond.png" class="blond" alt="Site Oficial"></a>
+            <a href="https://x.com/blondedbra" target="_blank"><img src="img/x.png" class="x" alt="x fan base"></a>
+        </aside>
+        <section>
+            <a href="https://www.instagram.com/blonded" target="_blank"><p class="P_insta">INSTAGRAM</p></a>
+            <a href="https://encurtador.com.br/Tlu6A" target="_blank"><p class="P_blond">SITE OFICIAL</p></a>
+            <a href="https://x.com/blondedbra" target="_blank"><p class="P_x">FANBASE</p></a>
+        </section>
+        </div>
+    <section>
+        <p class="p">Discografia</p>
+        <img src="img/NostalgiaUltra.png" class="nost" alt="Nostalgia Ultra">
+        <p class="info_nost"><b>Nostalgia, Ultra (2011).</b> foi a mixtape que marcou a estreia de <b>Frank Ocean</b> como artista solo.
+            O projeto se destaca por <i>letras sinceras e emotivas</i> que exploram temas como <i>nostalgia, amor e relacionamentos. Contém o total de 14 faixas,</i> 
+            Algumas faixas usam samples inusitados, como <i>"Hotel California" do Eagles (American Wedding) e "Electric Feel" do MGMT (Nature Feels),</i>
+            demonstrando a <i>ousadia e originalidade do artista.</i></p>
+
+        <img src="img/Channel_ORANGE.png" class="orange" alt="Channel Orange">
+        <p class="info_orange">Primeiro álbum de estúdio de Frank Ocean, <b>Channel Orange (2012)</b> consolidou sua reputação como um dos artistas mais inovadores da música contemporânea. e venceu o Grammy de <i>Melhor Álbum Urbano Contemporâneo em 2013.</i>
+            O álbum aborda temas profundos, como <i>amor não correspondido, sexualidade, desigualdade social e consumismo. Possue o total de 17 faixas, </i>
+            É repleto de faixas icônicas, como <i>Thinkin Bout You, Pyramids e Super Rich Kids,</i> que demonstram sua habilidade de combinar <i>storytelling lírico</i> com <i>arranjos musicais sofisticados.</i> 
+            O álbum apresenta uma <i>sonoridade rica, com elementos de R&B, jazz, funk e pop.</i></p>
+            
+        <img src="img/endless.png" class="end" alt="Endless">
+        <p class="info_end"> <b>Endless (2016)</b> é um álbum visual lançado como um projeto experimental. 
+            A obra combina <i>música e arte visual</i>, apresentando uma performance contínua de <i>Frank Ocean construindo uma escada em um ambiente industrial minimalista. </i>
+            Musicalmente, o projeto <i>explora sonoridades ambientais, fragmentadas e melancólicas,</i> refletindo sua natureza mais conceitual. Tendo apenas 19 faixas,
+            As faixas são intercaladas por transições suaves, criando uma experiência imersiva. 
+            Embora tenha sido menos promovido que outros trabalhos,<i> Endless demonstra a versatilidade artística de Ocean.</i></p>
+    
+        <img src="img/blonded.jpg" class="blo" alt="Blond">
+        <p class="info_blo"> <b>Blonde</b> é um marco na música contemporânea e é amplamente considerado o trabalho mais <i>pessoal e experimental</i> de Frank Ocean.
+            O álbum aborda <i>temas de amor, espiritualidade, perda e identidade com uma profundidade emocional única. </i>
+            Musicalmente, é caracterizado por sua abordagem minimalista e inovadora, destacando o uso de <i>vozes moduladas, harmonias vocais complexas e letras introspectivas.</i>
+            Lançado em 2016, contém <i>17 faixas</i>, incluindo clássicos como <i>Nikes, Ivy e Nights</i>. "Blonde" transcende gêneros, consolidando Ocean como uma figura singular no panorama musical.</p>
+
+        </section>
+
+        <footer><p>#VoltaFrankOcean</p></footer>
+</body>
+</html>
