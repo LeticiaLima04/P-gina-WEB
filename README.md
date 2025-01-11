@@ -1,4 +1,4 @@
-# **Frank Ocean - Página HTML 💫🎶**
+# **Frank Ocean - Página HTML 🌊🎶**
 Este repositório contém uma página web criada em **HTML** para homenagear o icônico **Frank Ocean**, explorando sua carreira e música de forma visual e interativa. 🌊🎤
 
 ### O que você vai encontrar:
